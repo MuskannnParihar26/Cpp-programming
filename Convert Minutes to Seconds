@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+void convert(int minutes) {
+    int seconds = minutes * 60;
+    cout << "There are-"<< seconds << " seconds in "<< minutes <<  "minutes"<<endl;
+}
+
+int main() {
+    int m;
+
+    cout << "Enter the minute value: ";
+    cin >> m;
+
+    convert(m);
+
+    return 0;
+}
