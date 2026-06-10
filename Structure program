@@ -1,0 +1,20 @@
+// Question: Store and display student details using structure.
+
+#include <iostream>
+using namespace std;
+
+struct Student {
+    int roll;
+    string name;
+    float marks;
+};
+
+int main() {
+    Student s = {1001, "Muskan", 86.9};
+
+    cout << "Roll No: " << s.roll << endl;
+    cout << "Name: " << s.name << endl;
+    cout << "Marks: " << s.marks;
+
+    return 0;
+}
